@@ -1,0 +1,144 @@
+h1 {
+    
+    color: rgb(37, 14, 155);
+    font-family: 'Prata', serif;
+    font-size: 86px;
+    text-transform: uppercase;
+    text-shadow: 7px 5px 10px rgb(219, 46, 164);
+    margin: 0%;
+
+}
+
+body {
+    background-color: rgb(241, 237, 230);
+    color: rgb(241, 237, 230);
+    font-family: 'Roboto Flex', sans-serif;
+     font-size: 16px;
+    /* font-style: italic; */
+    /* letter-spacing: 2px; */
+    /* word-spacing: 8px; */
+   
+}
+.name {
+    color: rgb(37, 14, 155) ;
+    font-family: 'Prata', serif;
+    font-size: 64px;
+}
+.bt {
+    color: rgb(247, 166, 68);
+    font-family: 'Prata', serif;
+    font-size: 36px;
+    margin: 0%;
+}
+.bc {
+    color: rgb(37, 14, 155);
+}
+.text {
+    color: rgb(37, 14, 155);
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.ava {
+    border-radius: 50px;
+    box-shadow: 20px 20px 14px rgba(251, 112, 170, 0.962);
+    margin: 50px;
+}
+.imya {
+    margin-left: 20px;
+}
+.about {
+    border-radius: 40px;
+    padding: 10px 20px 30px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+.me {
+    color: rgb(37, 14, 155);
+    font-size: 18px;
+}
+.card {
+    background-color: rgb(37, 14, 155);
+    border-radius: 40px;
+    padding: 10px 20px 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.container {
+    max-width: 980px;
+    margin: 0 auto;
+}
+.contact {
+    background-color: rgb(251, 112, 170);
+    border-radius: 40px;
+    padding: 10px 20px 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.list {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+.list li:hover {
+    background-color: rgb(251, 112, 170);
+}
+.table {
+    width: 100%;
+    background-color: rgb(251, 112, 170);
+    border-radius: 40px;
+    padding: 10px 20px 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+.table tr td:nth-child(even) {
+    background-color:  rgb(241, 237, 230);
+    color:  rgb(251, 112, 170);
+}
+.hello {
+    width: 95%;
+    margin-top: 30px;
+}
+a:hover {
+    opacity: 0.5;
+}
+a {
+    text-decoration: none;
+}
+a:active {
+    color: rgb(247, 166, 68)
+}
+.actions { 
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+}
+.actions li{
+    background-color:  rgb(247, 166, 68);
+    width: 33%;
+    float: left;
+    border: rgb(251, 112, 170) 5px solid;
+    box-sizing: border-box;
+}
+.box {
+    background-color: rgb(251, 112, 170) 5px solid;
+    width: 100%;
+    border: rgb(37, 14, 155) 5px solid;
+    position: relative;
+    }
+.inner {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(247, 166, 68);
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
+@media (max-width: 500px) {
+   body {
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 12px;
+   }
+}
